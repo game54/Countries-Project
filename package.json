@@ -1,0 +1,17 @@
+{
+  "name": "countries-project",
+  "version": "1.0.0",
+  "description": "Web app that displays countries and their neighbour countries",
+  "main": "./js/controller.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Antonis Polymilis",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.19.1",
+    "parcel": "^2.0.1",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
