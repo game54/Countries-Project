@@ -6,21 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" href="src/img/icon2.png" />
     <link rel="stylesheet" href="src/css/style.css" />
-    <script
+    <!-- <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
+    ></script> -->
     <script
-      nomodule
+      type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script defer src="src/js/controller.js"></script>
+    <script type="module" defer src="src/js/controller.js"></script>
     <title>Countries</title>
   </head>
   <body>
     <main class="container">
       <header>
-        <div id="InputBox" class="input-box initial">
+        <div id="InputBox" class="input-box">
+          <!-- <div id="InputBox" class="input-box initial"> -->
           <input class="input" placeholder="Country" />
           <ion-icon class="icon" name="arrow-back-outline"></ion-icon>
         </div>
