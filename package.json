@@ -2,6 +2,7 @@
   "name": "countries-project",
   "version": "1.0.0",
   "description": "Web app that displays countries and their neighbour countries",
+  "default":"index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"

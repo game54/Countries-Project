@@ -1,4 +1,3 @@
-'use strict';
 import * as model from './model.js';
 import countryView from './views/countryView.js';
 import handlers from './views/handlers.js';
