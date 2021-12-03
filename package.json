@@ -11,10 +11,10 @@
   "dependencies": {
     "assert-plus": "^1.0.0",
     "core-js": "^3.19.1",
-    "parcel": "^2.0.1",
     "regenerator-runtime": "^0.13.9"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.1"
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
   }
 }
