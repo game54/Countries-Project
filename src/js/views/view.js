@@ -15,9 +15,6 @@ export default class View {
   removeInitial() {
     this._inputBox.classList.remove('initial');
   }
-  addInitial() {
-    this._inputBox.classList.add('initial');
-  }
 
   renderSpinner() {
     const markup = `
@@ -31,13 +28,12 @@ export default class View {
 
   errorReaction() {
     this._clear();
-    this._arrow.style.color = '_f03e3e';
+    this._arrow.style.color = '#f03e3e';
     this._inputBox.classList.add('error');
 
     setTimeout(() => {
-      this._arrow.style.color = '_1971c2';
+      this._arrow.style.color = '#1971c2';
       this._inputBox.classList.remove('error');
-      this._inputBox.classList.add('initial');
     }, 1000);
   }
 }

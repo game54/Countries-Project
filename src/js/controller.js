@@ -25,7 +25,6 @@ const getCountryAndNeighbour = async function (country) {
 
     //render neighbour countries
     model.state.neighbour.results.flat().map(result => {
-      console.log(result);
       neighbourView.renderNeighbour(result, 'neighbour');
     });
   } catch (err) {
@@ -51,7 +50,6 @@ const getCountryByRegion = async function (region) {
 
     //render region countries
     model.state.region.results.map(result => {
-      console.log(result);
       regionView.renderRegion(result, model.state.region.results.length);
     });
   } catch (err) {
@@ -59,7 +57,6 @@ const getCountryByRegion = async function (region) {
 
     //React to error
     countryView.errorReaction();
-    countryView.addInitial();
   }
 };
 
